@@ -1,5 +1,8 @@
 # Demo to test eel
 
+## Run from local
+`python main.py`
+
 ## Building distributable binary with PyInstaller
 
 If you want to package your app into a program that can be run on a computer without a
