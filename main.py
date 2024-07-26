@@ -1,5 +1,13 @@
-import eel
+import sys
+import os
 
+if sys.stdout is None:
+    sys.stdout = open(os.devnull, "w")
+if sys.stderr is None:
+    sys.stderr = open(os.devnull, "w")
+
+
+import eel
 
 # Give folder containing web files
 eel.init('web')
